@@ -24,10 +24,7 @@ Usage instructions:
     NSLog(@"%@",[[UIDevice currentDevice] nodeName]);               //Name of node within network
     NSLog(@"%@",[[UIDevice currentDevice] systemNameVague]);        //Vague system name. Will probably only ever get to output "Darwin"
     NSLog(@"%@",[[UIDevice currentDevice] codeName]);               //Code name of device e.g. "N41AP"
-    NSLog(@"%d",[[UIDevice currentDevice] isRetina]);               //BOOL, returns YES (1) for retina NO (0) for non-retina
-
-
-```
+    NSLog(@"%d",[[UIDevice currentDevice] isRetina]);               //BOOL, returns YES (1) for retina NO (0) for non-retina```
 
 In included sample project these usage examples are demonstrated in main.m
 
